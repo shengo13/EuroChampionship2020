@@ -31,9 +31,11 @@ namespace EuroChempionship2020
                         Text = team.Name,
                         Image = team.Flag,
                         TextImageRelation = TextImageRelation.ImageBeforeText,
-                        Padding = new Padding(5),
+                        Padding = new Padding(13),
                         Dock = DockStyle.Fill,
                         FlatStyle = FlatStyle.Flat,
+                        Font = new Font("Bold", 13),
+                        
                     };
                     teamButton.FlatAppearance.BorderSize = 0;
 

@@ -77,7 +77,7 @@
             this.teamsTable.Controls.Add(this.WeakLabel, 0, 4);
             this.teamsTable.Controls.Add(this.veryStrongLabel, 0, 1);
             this.teamsTable.Controls.Add(this.label3, 3, 0);
-            this.teamsTable.Location = new System.Drawing.Point(159, 87);
+            this.teamsTable.Location = new System.Drawing.Point(94, 87);
             this.teamsTable.Name = "teamsTable";
             this.teamsTable.RowCount = 5;
             this.teamsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -85,7 +85,7 @@
             this.teamsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 99F));
             this.teamsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 97F));
             this.teamsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 86F));
-            this.teamsTable.Size = new System.Drawing.Size(858, 430);
+            this.teamsTable.Size = new System.Drawing.Size(1083, 421);
             this.teamsTable.TabIndex = 2;
             // 
             // levelLabel
@@ -95,7 +95,7 @@
             this.levelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.levelLabel.Location = new System.Drawing.Point(5, 2);
             this.levelLabel.Name = "levelLabel";
-            this.levelLabel.Size = new System.Drawing.Size(163, 36);
+            this.levelLabel.Size = new System.Drawing.Size(208, 27);
             this.levelLabel.TabIndex = 0;
             this.levelLabel.Text = "level";
             this.levelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,9 +105,9 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Left;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 2);
+            this.label1.Location = new System.Drawing.Point(221, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 36);
+            this.label1.Size = new System.Drawing.Size(19, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "1";
             // 
@@ -115,7 +115,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(347, 2);
+            this.label2.Location = new System.Drawing.Point(437, 2);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 0;
@@ -127,9 +127,9 @@
             this.StrongLabel.AutoSize = true;
             this.StrongLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.StrongLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StrongLabel.Location = new System.Drawing.Point(5, 142);
+            this.StrongLabel.Location = new System.Drawing.Point(5, 133);
             this.StrongLabel.Name = "StrongLabel";
-            this.StrongLabel.Size = new System.Drawing.Size(163, 99);
+            this.StrongLabel.Size = new System.Drawing.Size(208, 99);
             this.StrongLabel.TabIndex = 0;
             this.StrongLabel.Text = "Strong";
             this.StrongLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -139,9 +139,9 @@
             this.MediumLabel.AutoSize = true;
             this.MediumLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MediumLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MediumLabel.Location = new System.Drawing.Point(5, 243);
+            this.MediumLabel.Location = new System.Drawing.Point(5, 234);
             this.MediumLabel.Name = "MediumLabel";
-            this.MediumLabel.Size = new System.Drawing.Size(163, 97);
+            this.MediumLabel.Size = new System.Drawing.Size(208, 97);
             this.MediumLabel.TabIndex = 0;
             this.MediumLabel.Text = "Medium";
             this.MediumLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -150,7 +150,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(689, 2);
+            this.label4.Location = new System.Drawing.Point(869, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(19, 20);
             this.label4.TabIndex = 0;
@@ -161,9 +161,9 @@
             this.WeakLabel.AutoSize = true;
             this.WeakLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.WeakLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WeakLabel.Location = new System.Drawing.Point(5, 342);
+            this.WeakLabel.Location = new System.Drawing.Point(5, 333);
             this.WeakLabel.Name = "WeakLabel";
-            this.WeakLabel.Size = new System.Drawing.Size(163, 86);
+            this.WeakLabel.Size = new System.Drawing.Size(208, 86);
             this.WeakLabel.TabIndex = 0;
             this.WeakLabel.Text = "Weak";
             this.WeakLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -173,9 +173,9 @@
             this.veryStrongLabel.AutoSize = true;
             this.veryStrongLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.veryStrongLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.veryStrongLabel.Location = new System.Drawing.Point(5, 40);
+            this.veryStrongLabel.Location = new System.Drawing.Point(5, 31);
             this.veryStrongLabel.Name = "veryStrongLabel";
-            this.veryStrongLabel.Size = new System.Drawing.Size(163, 100);
+            this.veryStrongLabel.Size = new System.Drawing.Size(208, 100);
             this.veryStrongLabel.TabIndex = 0;
             this.veryStrongLabel.Text = "Very Strong";
             this.veryStrongLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -185,9 +185,9 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Left;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(518, 2);
+            this.label3.Location = new System.Drawing.Point(653, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 36);
+            this.label3.Size = new System.Drawing.Size(19, 27);
             this.label3.TabIndex = 0;
             this.label3.Text = "3";
             // 
