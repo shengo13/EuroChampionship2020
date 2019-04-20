@@ -14,7 +14,6 @@ namespace EuroChempionship2020.Forms
     {
         public GroupForm(Team[][] teams)
         {
-
             InitializeComponent();
             Teams = teams;
 
