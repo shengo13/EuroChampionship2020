@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EuroChempionship2020
+namespace EuroChampionship.Forms
 {
-    public partial class GroupGameForm : Form
+    public partial class FourthFinalForm : Form
     {
-        public GroupGameForm()
+        public FourthFinalForm()
         {
             InitializeComponent();
         }

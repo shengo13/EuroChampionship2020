@@ -1,11 +1,6 @@
-﻿using EuroChempionship2020.Properties;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EuroChampionship.Properties;
 
-namespace EuroChempionship2020
+namespace EuroChampionship
 {
     public class TeamData
     {
@@ -13,7 +8,7 @@ namespace EuroChempionship2020
         {
             Team[][] group = new Team[4][]
             {
-            // VeryStrong
+            // Pot 1
                 new Team[4]
                 {
                     new Team { Name = "Spain", Flag = Resources.spain_flag_icon_32 },
@@ -21,7 +16,7 @@ namespace EuroChempionship2020
                     new Team { Name = "Germany", Flag = Resources.germany_flag_icon_32 },
                     new Team { Name = "France", Flag = Resources.france_flag_icon_32 },
                 },
-            // Strong
+            // Pot 2
                 new Team[4]
                 {
                    new Team { Name = "Croatia", Flag = Resources.croatia_flag_icon_32 },
@@ -29,7 +24,7 @@ namespace EuroChempionship2020
                    new Team { Name = "Netherlands", Flag = Resources.netherlands_flag_icon_32},
                    new Team { Name = "Belgium", Flag = Resources.belgium_flag_icon_32 }
                 },
-            // Madium
+            // Pot 3
                  new Team[4]
                  {
                     new Team { Name = "Serbia", Flag = Resources.serbia_flag_icon_32 },
@@ -37,7 +32,7 @@ namespace EuroChempionship2020
                     new Team { Name = "Sweden", Flag = Resources.sweden_flag_icon_32 },
                     new Team { Name = "Ireland", Flag = Resources.ireland_flag_icon_32__1_ }
                  },
-            // Weak
+            // Pot 4
                 new Team[4]
                 {
                    new Team { Name = "Georgia", Flag = Resources.georgia_flag_icon_32 },
@@ -48,9 +43,7 @@ namespace EuroChempionship2020
             };
 
             for (int i = 0; i < 4; i++)
-            {
                 group[i].Shuffle();
-            }
 
             return group;
         }
