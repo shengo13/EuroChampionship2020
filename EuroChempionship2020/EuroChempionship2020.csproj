@@ -71,6 +71,7 @@
     <Compile Include="Forms\GroupGameForm.Designer.cs">
       <DependentUpon>GroupGameForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameClass.cs" />
     <Compile Include="GroupInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

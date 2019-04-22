@@ -21,8 +21,6 @@ namespace EuroChempionship2020.Forms
             FillTable(GetTeamsByColumn(Teams, 4, 1), GroupBTable);
             FillTable(GetTeamsByColumn(Teams, 4, 2), GroupCTable);
             FillTable(GetTeamsByColumn(Teams, 4, 3), GroupDTable);
-
-
         }
 
         private void FillTable(List<Team> teams, TableLayoutPanel table)
@@ -46,7 +44,6 @@ namespace EuroChempionship2020.Forms
                 table.Controls.Add(teamButton);
                 table.SetColumn(teamButton, 1);
                 table.SetRow(teamButton, i+1);
-
             }
         }
 
@@ -56,14 +53,9 @@ namespace EuroChempionship2020.Forms
         {
             List<Team> result = new List<Team>();
             for (int i = 0; i < rowsCount; i++)
-            {
                 result.Add(teams[i][columnIndex]);
-            }
-            return result;
 
-            
-
+            return result;     
         }
-
     }
 }

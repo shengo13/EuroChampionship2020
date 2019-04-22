@@ -22,7 +22,6 @@ namespace EuroChempionship2020
 
             for (int i = 0, row = i + 1; i < 4; i++, row++)
             {
-
                 for (int j = 0, column = j + 1; j < 4; j++, column++)
                 {
                     var team = teams[i][j];
@@ -42,22 +41,14 @@ namespace EuroChempionship2020
                     teamsTable.Controls.Add(teamButton);
                     teamsTable.SetRow(teamButton, row);
                     teamsTable.SetColumn(teamButton, column);
-
                 }
             }
-
         }
 
         private void SelectionButton_Click(object sender, EventArgs e)
         {
             var groupForm = new GroupForm(teams);
             groupForm.ShowDialog();
-
-
-
-
         }
-
-        
     }
 }
