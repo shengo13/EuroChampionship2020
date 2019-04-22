@@ -1995,6 +1995,7 @@
             this.MaximumSize = new System.Drawing.Size(1371, 866);
             this.MinimumSize = new System.Drawing.Size(1371, 866);
             this.Name = "GroupForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GroupForm";
             this.GroupPanel.ResumeLayout(false);
             this.GroupPanel.PerformLayout();

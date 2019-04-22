@@ -222,6 +222,7 @@
             this.ClientSize = new System.Drawing.Size(1261, 678);
             this.Controls.Add(this.Mainpanel);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
             this.Mainpanel.ResumeLayout(false);
             this.Mainpanel.PerformLayout();

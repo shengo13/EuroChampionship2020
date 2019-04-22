@@ -17,10 +17,15 @@ namespace EuroChempionship2020.Forms
             InitializeComponent();
             Teams = teams;
 
-            FillTable(GetTeamsByColumn(Teams, 4, 0), GroupATable);
-            FillTable(GetTeamsByColumn(Teams, 4, 1), GroupBTable);
-            FillTable(GetTeamsByColumn(Teams, 4, 2), GroupCTable);
-            FillTable(GetTeamsByColumn(Teams, 4, 3), GroupDTable);
+            var group1 = GetTeamsByColumn(Teams, 4, 0).ResetResults().PlayMatches().OrderByDescending(t => t.Points).ThenByDescending(t => t.PlusMinus).ToList();
+            var group2 = GetTeamsByColumn(Teams, 4, 1).ResetResults().PlayMatches().OrderByDescending(t => t.Points).ThenByDescending(t => t.PlusMinus).ToList();
+            var group3 = GetTeamsByColumn(Teams, 4, 2).ResetResults().PlayMatches().OrderByDescending(t => t.Points).ThenByDescending(t => t.PlusMinus).ToList();
+            var group4 = GetTeamsByColumn(Teams, 4, 3).ResetResults().PlayMatches().OrderByDescending(t => t.Points).ThenByDescending(t => t.PlusMinus).ToList();
+
+            FillTable(group1, GroupATable);
+            FillTable(group2, GroupBTable);
+            FillTable(group3, GroupCTable);
+            FillTable(group4, GroupDTable);
         }
 
         private void FillTable(List<Team> teams, TableLayoutPanel table)
@@ -43,19 +48,27 @@ namespace EuroChempionship2020.Forms
 
                 table.Controls.Add(teamButton);
                 table.SetColumn(teamButton, 1);
-                table.SetRow(teamButton, i+1);
+                table.SetRow(teamButton, i + 1);
+
+                table.GetControlFromPosition(2, i + 1).Text = team.W.ToString();
+                table.GetControlFromPosition(3, i + 1).Text = team.D.ToString();
+                table.GetControlFromPosition(4, i + 1).Text = team.L.ToString();
+                table.GetControlFromPosition(5, i + 1).Text = team.Points.ToString();
+                table.GetControlFromPosition(6, i + 1).Text = team.PlusMinus.ToString();
             }
         }
 
         public Team[][] Teams { get; }
 
-        List<Team> GetTeamsByColumn(Team[][] teams, int rowsCount , int columnIndex )
+        List<Team> GetTeamsByColumn(Team[][] teams, int rowsCount, int columnIndex)
         {
             List<Team> result = new List<Team>();
             for (int i = 0; i < rowsCount; i++)
                 result.Add(teams[i][columnIndex]);
 
-            return result;     
+            return result;
         }
+
+     
     }
 }

@@ -20,6 +20,12 @@ namespace EuroChempionship2020
             InitializeComponent();
             teams = TeamData.GetTeams();
 
+            foreach (var team in teams)
+            {
+                team.Shuffle();
+            }
+
+
             for (int i = 0, row = i + 1; i < 4; i++, row++)
             {
                 for (int j = 0, column = j + 1; j < 4; j++, column++)
