@@ -1,13 +1,6 @@
 ﻿using EuroChempionship2020.Forms;
-using EuroChempionship2020.Properties;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EuroChempionship2020
@@ -21,9 +14,7 @@ namespace EuroChempionship2020
             teams = TeamData.GetTeams();
 
             foreach (var team in teams)
-            {
                 team.Shuffle();
-            }
 
 
             for (int i = 0, row = i + 1; i < 4; i++, row++)
@@ -39,8 +30,7 @@ namespace EuroChempionship2020
                         Padding = new Padding(13),
                         Dock = DockStyle.Fill,
                         FlatStyle = FlatStyle.Flat,
-                        Font = new Font("Bold", 13),
-                        
+                        Font = new Font("Bold", 13),                        
                     };
                     teamButton.FlatAppearance.BorderSize = 0;
 

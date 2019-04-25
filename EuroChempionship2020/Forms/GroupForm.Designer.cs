@@ -157,7 +157,7 @@
             this.label109 = new System.Windows.Forms.Label();
             this.label111 = new System.Windows.Forms.Label();
             this.label112 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.advanceButton = new System.Windows.Forms.Button();
             this.GroupDLabel = new System.Windows.Forms.Label();
             this.GroupBLabel = new System.Windows.Forms.Label();
             this.GroupCLabel = new System.Windows.Forms.Label();
@@ -179,7 +179,7 @@
             this.GroupPanel.Controls.Add(this.GroupBTable);
             this.GroupPanel.Controls.Add(this.GroupCTable);
             this.GroupPanel.Controls.Add(this.GroupATable);
-            this.GroupPanel.Controls.Add(this.button1);
+            this.GroupPanel.Controls.Add(this.advanceButton);
             this.GroupPanel.Controls.Add(this.GroupDLabel);
             this.GroupPanel.Controls.Add(this.GroupBLabel);
             this.GroupPanel.Controls.Add(this.GroupCLabel);
@@ -1894,17 +1894,18 @@
             this.label112.Text = "0";
             this.label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // advanceButton
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Lime;
-            this.button1.Location = new System.Drawing.Point(522, 762);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(252, 62);
-            this.button1.TabIndex = 119;
-            this.button1.Text = "Advance";
-            this.button1.UseVisualStyleBackColor = false;
+            this.advanceButton.BackColor = System.Drawing.Color.Green;
+            this.advanceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.advanceButton.ForeColor = System.Drawing.Color.Lime;
+            this.advanceButton.Location = new System.Drawing.Point(522, 762);
+            this.advanceButton.Name = "advanceButton";
+            this.advanceButton.Size = new System.Drawing.Size(252, 62);
+            this.advanceButton.TabIndex = 119;
+            this.advanceButton.Text = "Advance";
+            this.advanceButton.UseVisualStyleBackColor = false;
+            this.advanceButton.Click += new System.EventHandler(this.AdvanceButton_Click);
             // 
             // GroupDLabel
             // 
@@ -2017,7 +2018,7 @@
         private System.Windows.Forms.Label GroupBLabel;
         private System.Windows.Forms.Label GroupCLabel;
         private System.Windows.Forms.Label GroupALabel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button advanceButton;
         private System.Windows.Forms.TableLayoutPanel GroupATable;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

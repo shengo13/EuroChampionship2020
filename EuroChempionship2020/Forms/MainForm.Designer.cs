@@ -30,7 +30,6 @@
         {
             this.Mainpanel = new System.Windows.Forms.Panel();
             this.teamsTable = new System.Windows.Forms.TableLayoutPanel();
-            this.levelLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.StrongLabel = new System.Windows.Forms.Label();
@@ -68,7 +67,6 @@
             this.teamsTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.teamsTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.teamsTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.teamsTable.Controls.Add(this.levelLabel, 0, 0);
             this.teamsTable.Controls.Add(this.label1, 1, 0);
             this.teamsTable.Controls.Add(this.label2, 2, 0);
             this.teamsTable.Controls.Add(this.StrongLabel, 0, 2);
@@ -88,39 +86,29 @@
             this.teamsTable.Size = new System.Drawing.Size(1083, 421);
             this.teamsTable.TabIndex = 2;
             // 
-            // levelLabel
-            // 
-            this.levelLabel.AutoSize = true;
-            this.levelLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.levelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.levelLabel.Location = new System.Drawing.Point(5, 2);
-            this.levelLabel.Name = "levelLabel";
-            this.levelLabel.Size = new System.Drawing.Size(208, 27);
-            this.levelLabel.TabIndex = 0;
-            this.levelLabel.Text = "level";
-            this.levelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(221, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 27);
+            this.label1.Size = new System.Drawing.Size(208, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(437, 2);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(19, 20);
+            this.label2.Size = new System.Drawing.Size(208, 27);
             this.label2.TabIndex = 0;
             this.label2.Text = "2";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // StrongLabel
             // 
@@ -131,7 +119,7 @@
             this.StrongLabel.Name = "StrongLabel";
             this.StrongLabel.Size = new System.Drawing.Size(208, 99);
             this.StrongLabel.TabIndex = 0;
-            this.StrongLabel.Text = "Strong";
+            this.StrongLabel.Text = "Pot 2";
             this.StrongLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MediumLabel
@@ -143,18 +131,20 @@
             this.MediumLabel.Name = "MediumLabel";
             this.MediumLabel.Size = new System.Drawing.Size(208, 97);
             this.MediumLabel.TabIndex = 0;
-            this.MediumLabel.Text = "Medium";
+            this.MediumLabel.Text = "Pot 3";
             this.MediumLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(869, 2);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(19, 20);
+            this.label4.Size = new System.Drawing.Size(209, 27);
             this.label4.TabIndex = 0;
             this.label4.Text = "4";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // WeakLabel
             // 
@@ -165,7 +155,7 @@
             this.WeakLabel.Name = "WeakLabel";
             this.WeakLabel.Size = new System.Drawing.Size(208, 86);
             this.WeakLabel.TabIndex = 0;
-            this.WeakLabel.Text = "Weak";
+            this.WeakLabel.Text = "Pot 4";
             this.WeakLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // veryStrongLabel
@@ -177,19 +167,20 @@
             this.veryStrongLabel.Name = "veryStrongLabel";
             this.veryStrongLabel.Size = new System.Drawing.Size(208, 100);
             this.veryStrongLabel.TabIndex = 0;
-            this.veryStrongLabel.Text = "Very Strong";
+            this.veryStrongLabel.Text = "Pot 1";
             this.veryStrongLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(653, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 27);
+            this.label3.Size = new System.Drawing.Size(208, 27);
             this.label3.TabIndex = 0;
             this.label3.Text = "3";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // selectionButton
             // 
@@ -200,7 +191,7 @@
             this.selectionButton.Name = "selectionButton";
             this.selectionButton.Size = new System.Drawing.Size(225, 75);
             this.selectionButton.TabIndex = 1;
-            this.selectionButton.Text = "Selection";
+            this.selectionButton.Text = "Start Simulation";
             this.selectionButton.UseVisualStyleBackColor = false;
             this.selectionButton.Click += new System.EventHandler(this.SelectionButton_Click);
             // 
@@ -235,7 +226,6 @@
         #endregion
 
         private System.Windows.Forms.Panel Mainpanel;
-        private System.Windows.Forms.Label levelLabel;
         private System.Windows.Forms.Label EuroChempionship2020label;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;

@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EuroChempionship2020.Forms
 {
     public partial class GroupForm : Form
     {
+        List<Team> qualified;
+
         public GroupForm(Team[][] teams)
         {
             InitializeComponent();
@@ -26,6 +24,23 @@ namespace EuroChempionship2020.Forms
             FillTable(group2, GroupBTable);
             FillTable(group3, GroupCTable);
             FillTable(group4, GroupDTable);
+
+            qualified = new List<Team>
+            {
+                group1[0],
+                group2[1],
+                group1[1],
+                group2[0],
+                group3[0],
+                group4[1],
+                group3[1],
+                group4[0],
+
+                //group1.Take(2),
+                //group2.Take(2),
+                //group3.Take(2),
+                //group4.Take(2),
+            };
         }
 
         private void FillTable(List<Team> teams, TableLayoutPanel table)
@@ -69,6 +84,10 @@ namespace EuroChempionship2020.Forms
             return result;
         }
 
-     
+        private void AdvanceButton_Click(object sender, System.EventArgs e)
+        {
+            var playoffs = new PlayoffsForm(qualified);
+            playoffs.ShowDialog();
+        }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EuroChempionship2020
 {
@@ -25,9 +22,8 @@ namespace EuroChempionship2020
         public static List<Team> ResetResults(this List<Team> teams)
         {
             foreach (var team in teams)
-            {
                 team.Reset();
-            }
+
             return teams;
         }
 
@@ -43,8 +39,7 @@ namespace EuroChempionship2020
 
                 T temp = source[first];
                 source[first] = source[second];
-                source[second] = temp; 
-              
+                source[second] = temp;               
             }
         }
     }
