@@ -1,9 +1,9 @@
-﻿using EuroChempionship2020.Forms;
+﻿using EuroChampionship.Forms;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace EuroChempionship2020
+namespace EuroChampionship
 {
     public partial class MainForm : Form
     {

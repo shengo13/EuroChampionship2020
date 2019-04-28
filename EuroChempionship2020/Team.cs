@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EuroChempionship2020
+namespace EuroChampionship
 {
     public class Team
     {

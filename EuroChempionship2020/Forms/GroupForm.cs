@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace EuroChempionship2020.Forms
+namespace EuroChampionship.Forms
 {
     public partial class GroupForm : Form
     {
@@ -14,6 +14,9 @@ namespace EuroChempionship2020.Forms
         {
             InitializeComponent();
             Teams = teams;
+
+            foreach (var team in teams)
+                team.Shuffle();
 
             var group1 = GetTeamsByColumn(Teams, 4, 0).ResetResults().PlayMatches().OrderByDescending(t => t.Points).ThenByDescending(t => t.PlusMinus).ToList();
             var group2 = GetTeamsByColumn(Teams, 4, 1).ResetResults().PlayMatches().OrderByDescending(t => t.Points).ThenByDescending(t => t.PlusMinus).ToList();

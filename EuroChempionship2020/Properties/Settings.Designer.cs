@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EuroChempionship2020.Properties
+namespace EuroChampionship.Properties
 {
 
 

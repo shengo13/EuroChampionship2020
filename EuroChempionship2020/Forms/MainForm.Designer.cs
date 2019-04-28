@@ -1,4 +1,4 @@
-﻿namespace EuroChempionship2020
+﻿namespace EuroChampionship
 {
     partial class MainForm
     {
@@ -204,7 +204,7 @@
             this.EuroChempionship2020label.Name = "EuroChempionship2020label";
             this.EuroChempionship2020label.Size = new System.Drawing.Size(340, 31);
             this.EuroChempionship2020label.TabIndex = 0;
-            this.EuroChempionship2020label.Text = "Euro Chempionship 2020";
+            this.EuroChempionship2020label.Text = "Euro Championship 2020";
             // 
             // MainForm
             // 

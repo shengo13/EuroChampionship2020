@@ -1,6 +1,6 @@
-﻿using EuroChempionship2020.Properties;
+﻿using EuroChampionship.Properties;
 
-namespace EuroChempionship2020
+namespace EuroChampionship
 {
     public class TeamData
     {

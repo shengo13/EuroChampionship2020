@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EuroChempionship2020
+namespace EuroChampionship
 {
     public static class Extention
     {

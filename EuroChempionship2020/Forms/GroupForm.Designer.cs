@@ -1,4 +1,4 @@
-﻿namespace EuroChempionship2020.Forms
+﻿namespace EuroChampionship.Forms
 {
     partial class GroupForm
     {
@@ -191,7 +191,7 @@
             this.GroupPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GroupPanel.Location = new System.Drawing.Point(0, 0);
             this.GroupPanel.Name = "GroupPanel";
-            this.GroupPanel.Size = new System.Drawing.Size(1355, 827);
+            this.GroupPanel.Size = new System.Drawing.Size(1355, 749);
             this.GroupPanel.TabIndex = 3;
             // 
             // GroupDTable
@@ -1991,10 +1991,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1355, 827);
+            this.ClientSize = new System.Drawing.Size(1355, 749);
             this.Controls.Add(this.GroupPanel);
             this.MaximumSize = new System.Drawing.Size(1371, 866);
-            this.MinimumSize = new System.Drawing.Size(1371, 866);
+            this.MinimumSize = new System.Drawing.Size(1364, 726);
             this.Name = "GroupForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GroupForm";

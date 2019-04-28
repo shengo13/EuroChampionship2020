@@ -1,4 +1,4 @@
-﻿namespace EuroChempionship2020.Forms
+﻿namespace EuroChampionship.Forms
 {
     partial class PlayoffsForm
     {
@@ -59,10 +59,10 @@
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.Finals = new System.Windows.Forms.TableLayoutPanel();
-            this.Quarters4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label21 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.Quarters4 = new System.Windows.Forms.TableLayoutPanel();
+            this.label21 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.Quarters1.SuspendLayout();
             this.Quarters2.SuspendLayout();
@@ -75,6 +75,7 @@
             // 
             // Quarters1
             // 
+            this.Quarters1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Quarters1.ColumnCount = 2;
             this.Quarters1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Quarters1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -93,9 +94,9 @@
             this.label16.AutoSize = true;
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(228, 0);
+            this.label16.Location = new System.Drawing.Point(226, 2);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 75);
+            this.label16.Size = new System.Drawing.Size(41, 69);
             this.label16.TabIndex = 234;
             this.label16.Text = "0";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,7 +106,7 @@
             this.label17.AutoSize = true;
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(228, 75);
+            this.label17.Location = new System.Drawing.Point(226, 73);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(41, 71);
             this.label17.TabIndex = 234;
@@ -247,6 +248,7 @@
             // 
             // Quarters2
             // 
+            this.Quarters2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Quarters2.ColumnCount = 2;
             this.Quarters2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Quarters2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -265,9 +267,9 @@
             this.label18.AutoSize = true;
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(228, 0);
+            this.label18.Location = new System.Drawing.Point(226, 2);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 75);
+            this.label18.Size = new System.Drawing.Size(41, 69);
             this.label18.TabIndex = 234;
             this.label18.Text = "0";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -277,7 +279,7 @@
             this.label19.AutoSize = true;
             this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(228, 75);
+            this.label19.Location = new System.Drawing.Point(226, 73);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(41, 71);
             this.label19.TabIndex = 234;
@@ -286,6 +288,7 @@
             // 
             // Quarters3
             // 
+            this.Quarters3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Quarters3.ColumnCount = 2;
             this.Quarters3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Quarters3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -304,9 +307,9 @@
             this.label22.AutoSize = true;
             this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(228, 0);
+            this.label22.Location = new System.Drawing.Point(226, 2);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(41, 75);
+            this.label22.Size = new System.Drawing.Size(41, 69);
             this.label22.TabIndex = 234;
             this.label22.Text = "0";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -316,7 +319,7 @@
             this.label20.AutoSize = true;
             this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(228, 75);
+            this.label20.Location = new System.Drawing.Point(226, 73);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(41, 71);
             this.label20.TabIndex = 234;
@@ -325,6 +328,7 @@
             // 
             // Semis1
             // 
+            this.Semis1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Semis1.ColumnCount = 2;
             this.Semis1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Semis1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -343,7 +347,7 @@
             this.label26.AutoSize = true;
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(228, 75);
+            this.label26.Location = new System.Drawing.Point(226, 73);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(41, 71);
             this.label26.TabIndex = 234;
@@ -355,15 +359,16 @@
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(228, 0);
+            this.label25.Location = new System.Drawing.Point(226, 2);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(41, 75);
+            this.label25.Size = new System.Drawing.Size(41, 69);
             this.label25.TabIndex = 234;
             this.label25.Text = "0";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Semis2
             // 
+            this.Semis2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Semis2.ColumnCount = 2;
             this.Semis2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Semis2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -382,7 +387,7 @@
             this.label24.AutoSize = true;
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(228, 75);
+            this.label24.Location = new System.Drawing.Point(226, 73);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(41, 71);
             this.label24.TabIndex = 234;
@@ -394,15 +399,16 @@
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(228, 0);
+            this.label23.Location = new System.Drawing.Point(226, 2);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(41, 75);
+            this.label23.Size = new System.Drawing.Size(41, 69);
             this.label23.TabIndex = 234;
             this.label23.Text = "0";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Finals
             // 
+            this.Finals.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Finals.ColumnCount = 2;
             this.Finals.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Finals.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -416,8 +422,33 @@
             this.Finals.Size = new System.Drawing.Size(272, 146);
             this.Finals.TabIndex = 9;
             // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(226, 2);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(41, 69);
+            this.label27.TabIndex = 235;
+            this.label27.Text = "0";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(226, 73);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(41, 71);
+            this.label28.TabIndex = 236;
+            this.label28.Text = "0";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Quarters4
             // 
+            this.Quarters4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.Quarters4.ColumnCount = 2;
             this.Quarters4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
             this.Quarters4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
@@ -436,45 +467,21 @@
             this.label21.AutoSize = true;
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(228, 75);
+            this.label21.Location = new System.Drawing.Point(226, 73);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(41, 71);
             this.label21.TabIndex = 234;
             this.label21.Text = "0";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(228, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(41, 75);
-            this.label27.TabIndex = 235;
-            this.label27.Text = "0";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(228, 75);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(41, 71);
-            this.label28.TabIndex = 236;
-            this.label28.Text = "0";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label29
             // 
             this.label29.AutoSize = true;
             this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(228, 0);
+            this.label29.Location = new System.Drawing.Point(226, 2);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(41, 75);
+            this.label29.Size = new System.Drawing.Size(41, 69);
             this.label29.TabIndex = 235;
             this.label29.Text = "0";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -483,7 +490,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1505, 804);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.Quarters4);
             this.Controls.Add(this.Finals);
             this.Controls.Add(this.Semis2);
